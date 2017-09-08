@@ -10,15 +10,17 @@
 - src
   - components 业务 react 组件
   - js
-    - reducer reducer 目录
-    - action.js actionCreator 文件
-    - actionTypes.js 略
-    - bindActions.js actionCreator 与 dispatch 的绑定文件
-    - container.js 容器组件（与 Redux store 通信的唯一组件）
-    - model.js 接口请求文件
-    - param.js store 数据／actionCreator 分发文件
-    - selector.js 数据拼装文件
-    - store.js Redux store 创建文件
+    - business 业务相关文件目录
+      - selector.js 业务数据拼装文件
+    - react redux 相关文件目录
+      - reducer reducer 目录
+      - action.js actionCreator 文件
+      - actionTypes.js 略
+      - bindActions.js actionCreator 与 dispatch 的绑定文件
+      - container.js 容器组件（与 Redux store 通信的唯一组件）
+      - model.js 接口请求文件
+      - param.js store 数据／actionCreator 分发文件
+      - store.js Redux store 创建文件
   - App.js 应用顶层组件／渲染文件
   - index.js 入口文件
   
