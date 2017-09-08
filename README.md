@@ -1,5 +1,5 @@
 # 《React技术栈耕耘 —— Redux》示例项目
-一个 react + redux 的 todo list 项目示例
+一个 react + redux 的 todo list 项目示例 ，[文章地址](http://pobusama.github.io/2016/12/31/React%E6%8A%80%E6%9C%AF%E6%A0%88%E6%8E%A2%E7%A9%B6-Redux/)
 
 ## 如何运行示例？
 1. 安装 yarn： `npm i -g yarn`
@@ -21,3 +21,4 @@
     - store.js Redux store 创建文件
   - App.js 应用顶层组件／渲染文件
   - index.js 入口文件
+  
