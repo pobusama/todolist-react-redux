@@ -1,5 +1,5 @@
 import bindActions from './bindActions';
-import {getDispalyedTodos} from './selector';
+import {getDispalyedTodos} from '../business/selector';
 
 const mapStateToProps = state => {
     let {filters, todos, baseInfo} = state;

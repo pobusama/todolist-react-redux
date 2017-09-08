@@ -1,5 +1,5 @@
-import store from './js/store';
-import Container from './js/container';
+import store from './js/react/store';
+import Container from './js/react/container';
 import React, {Component} from 'react';
 import {Provider} from 'react-redux';
 

@@ -1,7 +1,7 @@
 import mapStateToProps from './param';
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
-import Wrapper from '../components/wrapper';
+import Wrapper from '../../components/wrapper';
 
 class Container extends Component {
     render() {
